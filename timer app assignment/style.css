@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   height: 100vh; 
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background:#ff595e;
+}
+.wrapper{
+    user-select: none;
+}
+.wrapper .time{
+    height: 100px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 20px rgba(0, 0,0, 0.09);
+}
+.wrapper .time span{
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color:#333 ;
+}
+.time span.colon{
+     width: 10px;
+}
+.time span.ms-colon,
+.time span.millisecond{
+ color: #17b84d;
+}
+.wrapper .buttons{
+      text-align: center;
+      margin-top: 20px;
+}
+
+#demo{
+    padding: 85px;
+    font-size: 50px;
+    background-color: #ffca3a;
+    font-family: 'Kanit', sans-serif;
+
+}
+.search{
+    margin-bottom: 500px;
+    margin-left: 300px;
+    background-color: #ffca3a;
+}
+.headd{
+    margin-bottom: 110px;
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    color:#6a4c93 ;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
